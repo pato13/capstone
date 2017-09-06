@@ -1,0 +1,274 @@
+/*universal styles */
+html{
+font-size: 16px;
+font-family: serif, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+strong {
+  font-weight: bold;
+}
+h2 {
+  padding-bottom: 1rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+h3 {
+  font-weight: bold;
+}
+.media-container {
+  overflow: hidden;
+}
+.media-container img,
+.media-container video {
+  display: block;
+  width: 100%;
+}
+/* header styles */
+header {
+  height: 4rem;
+  margin: auto 1.5rem;
+  display: flex;
+  font-size: 2rem;
+  background-color: white;
+  color: black;
+}
+header div{
+  display : flex;
+  height: 4rem;
+  margin: auto 24px;
+  width: 100%;
+}
+.name-logo{
+  height: 2rem;
+}
+.name-logo span h1{
+  color: gray;
+}
+.top-left ul{
+  display: flex;
+  margin: auto;
+}
+.top-left ul li{
+  padding-right: 1rem;
+}
+.mobile-nav{
+  display: none;
+}
+header ul li {
+  display: flex;
+}
+
+@media only screen and (max-width: 560px){
+  .name-logo, .top-left ul li{
+    display: none;
+  }
+}
+
+/* banner styles */
+
+.banner {
+  display: flex;
+  margin: 2rem 1.5rem;
+  background-color: #d3d3d3; /*gray soft */
+  color: black;
+  padding: 2rem 1.5rem;
+  width: 100%;
+}
+.banner img{
+  width: 60%;
+  margin-right: 1.5rem;
+}
+.banner-learn {
+  margin:auto 1.5rem;
+  flex-wrap: wrap;
+}
+.banner-learn h1{
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
+}
+.banner-learn p{
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
+}
+.start {
+  background-color: gray;
+  color: white;
+  height: 3rem;
+  margin-right: 1.5rem;
+  text-align: center;
+}
+.start p{
+  font-size: 1.5rem;
+  padding: 0.5rem 0;
+}
+/* information styles */
+
+.information{
+  display: flex;
+  margin-left: 1.5rem;
+  width: 100%;
+}
+.information img {
+  width: 60%;
+  margin-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+.others {
+  width: 100%;
+}
+.infos{
+  display: flex;
+  margin-left: 1.5rem;
+  width: 100%;
+}
+
+.infos img{
+  width: 35%;
+  height: auto;
+  border: 1px solid gray;
+  margin-bottom: 2rem;
+}
+.infos:last-child{
+  margin-top: 2rem;
+}
+.info{
+  margin: auto;
+
+
+}
+.info h1{
+  font-size: 2rem;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.info p{
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+.info h1 p span{
+  width: 100%;
+}
+.info span{
+  color: blue;
+  font-size: 1.2rem;
+}
+/*information styles main */
+.mains{
+  width: 100%;
+  display: flex;
+  margin-left: 1.5rem;
+}
+.main{
+  margin-left: 1.5rem;
+  width: 60%;
+  padding-right: 2rem;
+  margin-right: 1rem;
+}
+.main h1{
+  font-size: 3.2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+.main p{
+  font-size: 1.4rem;
+  line-height: 1.4;
+  margin-top: auto;
+  margin-bottom: 5rem;
+}
+.main h5 {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+.guests{
+  width: 40%;
+}
+.guests .guest{
+  width: 100%;
+}
+.guest {
+  display: flex;
+  background-color: #d3d3d3;
+  width: 100%;
+  margin-left: 2rem;
+}
+.guest img{
+  height: auto;
+  width: 35%;
+  border: 1px solid gray;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+.lecture{
+  margin: auto 1.5rem;
+}
+.lecture h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+.lecture p{
+  display: inline-block;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+}
+.lecture span{
+  color: blue;
+  font-size: 1.2rem;
+}
+/* learning styles */
+/*
+.learning{
+  padding: 2rem 4.5rem;
+  background-color: #d3d3d3;
+  width: 100%;
+}
+.learning h1{
+  font-size: 2rem;
+  margin: 3rem auto;
+  text-align: center;
+  font-weight: bold;
+}
+.learning-banner{
+  display: flex;
+}
+.courses img{
+margin-right: 2rem;
+width: auto;
+}
+.course h1{
+font-size: 1.5rem;
+text-align: left;
+margin-left: 1rem;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+*/
+/* Courses */
+#courses-section {
+  padding: 2rem 3.5rem;
+  background-color: rgb(245, 245, 245);
+}
+.course-row {
+ display: flex;
+}
+.course {
+  flex-basis: 33%;
+  margin: 1rem;
+  background-color: white;
+}
+.course .text-content {
+  padding: 1rem 1rem 1.5rem 1rem;
+}
+.course h3,
+.course h4 {
+  padding-bottom: .5rem;
+}
