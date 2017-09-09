@@ -55,17 +55,20 @@ header div{
 .top-left ul li{
   padding-right: 1rem;
 }
-.mobile-nav{
+#mobile-nav{
   display: none;
 }
 header ul li {
   display: flex;
 }
 
-@media only screen and (max-width: 560px){
-  .name-logo, .top-left ul li{
-    display: none;
-  }
+@media only screen and (max-width: 710px) {
+#nav-mobile {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 }
 
 /* banner styles */
@@ -107,6 +110,30 @@ header ul li {
   font-size: 1.5rem;
   padding: 0.5rem 0;
 }
+
+@media only screen and (max-width: 710px) {
+.banner {
+    padding: 0;
+    flex-wrap: wrap;
+}
+}
+
+@media only screen and (max-width: 710px) {
+.banner img {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+}
+}
+@media only screen and (max-width: 710px) {
+.banner-learn {
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    margin: 32px 16px;
+    width: 100%;
+}
+}
 /* information styles */
 
 .information{
@@ -127,7 +154,6 @@ header ul li {
   margin-left: 1.5rem;
   width: 100%;
 }
-
 .infos img{
   width: 35%;
   height: auto;
@@ -156,6 +182,16 @@ header ul li {
 .info span{
   color: blue;
   font-size: 1.2rem;
+}
+.img-campus-info-mobile{
+  display: none;
+}
+@media only screen and (max-width: 710px) {
+.img-campus-info-mobile {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
 }
 /*information styles main */
 .mains{
@@ -222,6 +258,18 @@ header ul li {
   color: blue;
   font-size: 1.2rem;
 }
+
+@media only screen and (max-width: 710px) {
+#learning h2 {
+    line-height: 0.5rem;
+}
+}
+@media only screen and (max-width: 710px){
+  .main h3, p {
+    display: none;
+}
+}
+
 /* Courses */
 #courses-section {
   padding: 2rem 3.5rem;
@@ -243,25 +291,42 @@ header ul li {
 .course h4 {
   padding-bottom: .5rem;
 }
+
+@media only screen and (max-width: 710px) {
+.course-img-mobile {
+    display: none;
+}
+}
 /*section exhibit styles */
 .exhibit{
   margin-left: 1.5rem;
   margin-top: 2rem;
+  width: 100%;
 }
 .thesis-section{
   display: flex;
+  width:100%;
+}
+.designs .design {
+  width: 100%;
 }
 .design{
   display: flex;
   margin-left: 1.5rem;
+  width: 40%;
 }
 .media-container {
-  margin-right: 1.5rem;
+  margin-right: 4rem;
+  width: 100%;
+}
+.design {
+  margin-left: -2rem;
 }
 .design img{
   width: 35%;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  padding-left: 1rem;
 }
 .design:first-child{
   background-color: rgb(245, 245, 245);
@@ -283,28 +348,82 @@ header ul li {
   width: 65%;
   margin: auto;
   margin-left: 1rem;
+  padding-right: -4rem;
 }
 .text-design h3{
   margin-bottom: 1rem;
 }
+
+@media only screen and (max-width: 710px) {
+#courses-section h3 {
+    line-height: 0.5rem;
+}
+}
+@media only screen and (max-width: 710px) {
+  #courses-section h4, p{
+    display: none;
+  }
+}
+@media only screen and (max-width: 710px) {
+.exhibit {
+    padding-bottom: 24px;
+}
+}
+
+@media only screen and (max-width: 710px) {
+.media-container {
+    height: auto;
+    width: 100%;
+    padding: 0;
+}
+}
+@media only screen and (max-width: 710px){
+.text-container {
+    display: none;
+}
+}
+@media only screen and (max-width: 710px) {
+  .designs {
+    display: none;
+  }
+}
+
 /*footer styles */
 footer{
-  margin-left: 1.5rem;
-  display: flex;
-  margin-top: 1rem;
-  width: 100%;
-  margin-bottom: 3rem;
+      padding: 0 24px;
+      border-top: 2px solid #003249;
+      display: flex;
+      justify-content: space-between;
 }
 footer p{
   font-size: 1.5rem;
 }
 .right{
- margin-right: 45rem;
+ padding: 16px 0;
 }
 .copy ul{
   display: flex;
   font-size: 1.5rem;
 }
-.copy ul li{
-  padding-right: 1.5rem;
+
+footer a {
+    display: inline-block;
+    margin: 16px 0 0 16px;
+    text-decoration: underline;
+}
+@media only screen and (max-width: 710px) {
+footer {
+    justify-content: flex-start;
+}
+}
+
+@media only screen and (max-width: 710px) {
+footer {
+    justify-content: flex-start;
+}
+}
+@media only screen and (max-width: 710px) {
+.right {
+    display: none;
+}
 }

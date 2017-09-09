@@ -25,11 +25,17 @@
       </div>
       <!--Mobile header section-->
 
-      <nav class="mobile-nav">
-        <img src="resources\icons\ic-logo.svg">
+      <nav id="mobile-nav">
+        <img src="resources\icons\ic-logo.svg" alt="Colmar Academy logo">
+        <a href="#">
         <img src="resources\icons\ic-on-campus.svg">
+        </a>
+        <a href="#">
         <img src="resources\icons\ic-online.svg">
+        </a>
+        <a href="#">
         <img src="resources\icons\ic-login.svg">
+        </a>
       </nav>
     </header>
 
@@ -55,6 +61,7 @@
          <div class="others">
            <div class="infos">
              <img src="resources\images\information-orientation.jpg">
+             <img src="resources\images\information-orientation-mobile.jpg" class="img-campus-info-mobile">
              <div class="info">
                 <h1>Orientation Date</h1>
                 <p>
@@ -65,7 +72,7 @@
            </div>
            <div class="infos">
              <img src="resources\images\information-campus.jpg">
-           <!--</div>-->
+             <img src="resources\images\information-campus-mobile.jpg" class="img-campus-info-mobile">
              <div class="info">
                <h1>Our Campus</h1>
                <p>
@@ -90,6 +97,7 @@
         <div class="guests">
           <div class="guest">
             <img src="resources\images\information-guest-lecture.jpg">
+            <img src="resources\images\information-guest-lecture-mobile.jpg" class="img-campus-info-mobile">
             <div class="lecture">
               <h1>Our guest lecture</h1>
               <p>
@@ -105,11 +113,10 @@
      <!-- section start learning -->
      <section id="courses-section">
        <h2>Start learning</h2>
-
          <div class="course-row">
            <a href="#" class="course">
             <div class="media-container">
-            <img src="resources\images\course-software.jpg">
+            <img src="resources\images\course-software.jpg" class="course-img-mobile">
             </div>
             <div class="text-content">
              <h3>Software Engineering</h3>
@@ -121,7 +128,7 @@
             </a>
           <a href="#" class="course">
             <div class="media-container">
-            <img src="resources\images\course-computer-art.jpg">
+            <img src="resources\images\course-computer-art.jpg" class="course-img-mobile">
             </div>
             <div class="text-content">
               <h3>Computer art</h3>
@@ -134,7 +141,7 @@
           </a>
           <a href="#" class="course">
             <div class="media-container">
-              <img src="resources\images\course-design.jpg">
+              <img src="resources\images\course-design.jpg" class="course-img-mobile">
             </div>
             <div class="text-content">
               <h3>Design</h3>
@@ -149,7 +156,7 @@
        <div class="course-row">
          <a href="#" class="course">
            <div class="media-container">
-             <img src="resources\images\course-data.jpg">
+             <img src="resources\images\course-data.jpg" class="course-img-mobile">
            </div>
            <div class="text-content">
              <h3>Data</h3>
@@ -161,7 +168,7 @@
          </a>
          <a href="#" class="course">
            <div class="media-container">
-             <img src="resources\images\course-business.jpg">
+             <img src="resources\images\course-business.jpg" class="course-img-mobile">
            </div>
            <div class="text-content">
              <h3>Business</h3>
@@ -173,7 +180,7 @@
          </a>
          <a href="#" class="course">
            <div class="media-container">
-             <img src="resources\images\course-marketing.jpg">
+             <img src="resources\images\course-marketing.jpg" class="course-img-mobile">
            </div>
            <div class="text-content">
              <h3>Marketing</h3>
@@ -191,7 +198,7 @@
       <h2>Thesis exhibit</h2>
       <div class="thesis-section">
         <div class="media-container">
-        <video src="resources\videos\thesis.mp4" width="60%" height="auto" autoplay="true">
+        <video src="resources\videos\thesis.mp4" controls>
           Video could not be loaded
         </video>
         </div>
@@ -226,20 +233,12 @@
 
     <!--section footer-->
     <footer>
-      <div class="right">
-          <p>
-            &copy 2016 Colmar Academy. All rights reserved
-          </p>
-      </div>
+      <p class="right">
+         &copy 2016 Colmar Academy. All rights reserved
+      </p>
       <div class="copy">
-          <ul>
-          <li>
-            Terms
-          </li>
-          <li>
-            Privacy
-          </li>
-        </ul>
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
       </div>
     </footer>
   </body>
