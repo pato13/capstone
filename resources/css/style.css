@@ -62,13 +62,24 @@ header ul li {
   display: flex;
 }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 590px){
+  #mobile-nav{
+    display: inherit;
+  }
+}
+
+@media only screen and (max-width: 590px) {
 #mobile-nav {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+}
+@media only screen and (max-width: 590px) {
+  .name-logo, .top-left , .name-logo span h1 .top-left ul, .top-left ul li {
+    display: none;
+  }
 }
 
 /* banner styles */
