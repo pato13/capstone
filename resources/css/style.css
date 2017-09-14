@@ -62,7 +62,7 @@ header ul li {
   display: flex;
 }
 
-@media only screen and (max-width: 710px) {
+@media only screen and (max-width: 560px) {
 #mobile-nav {
     width: 100%;
     display: flex;
@@ -111,21 +111,21 @@ header ul li {
   padding: 0.5rem 0;
 }
 
-@media only screen and (max-width: 710px) {
+@media only screen and (max-width: 560px) {
 .banner {
     padding: 0;
     flex-wrap: wrap;
 }
 }
 
-@media only screen and (max-width: 710px) {
+@media only screen and (max-width: 560px) {
 .banner img {
     width: 100%;
     height: 180px;
     overflow: hidden;
 }
 }
-@media only screen and (max-width: 710px) {
+@media only screen and (max-width: 560px) {
 .banner-learn {
     display: flex;
     flex-flow: wrap column;
@@ -186,7 +186,7 @@ header ul li {
 .img-campus-info-mobile{
   display: none;
 }
-@media only screen and (max-width: 710px) {
+@media only screen and (max-width: 560px) {
 .img-campus-info-mobile {
     display: inline-block;
     width: 100%;
@@ -259,17 +259,17 @@ header ul li {
   font-size: 1.2rem;
 }
 
-@media only screen and (max-width: 710px) {
+@media only screen and (max-width: 560px) {
 #learning h2 {
     line-height: 0.5rem;
 }
 }
-@media only screen and (max-width: 710px){
+@media only screen and (max-width: 560px){
   .main h3, p {
     display: none;
 }
 }
-@media only screen and (max-width: 710px) {
+@media only screen and (max-width: 560px) {
   .mains{
     display: none;
   }
@@ -296,7 +296,7 @@ header ul li {
   padding-bottom: .5rem;
 }
 
-@media only screen and (max-width: 710px) {
+@media only screen and (max-width: 560px) {
 .course-img-mobile {
     display: none;
 }
@@ -358,35 +358,35 @@ header ul li {
   margin-bottom: 1rem;
 }
 
-@media only screen and (max-width: 710px) {
+@media only screen and (max-width: 560px) {
 #courses-section h3 {
     line-height: 0.5rem;
 }
 }
-@media only screen and (max-width: 710px) {
+@media only screen and (max-width: 560px) {
   #courses-section h4, p{
     display: none;
   }
 }
-@media only screen and (max-width: 710px) {
+@media only screen and (max-width: 560px) {
 .exhibit {
     padding-bottom: 24px;
 }
 }
 
-@media only screen and (max-width: 710px) {
+@media only screen and (max-width: 560px) {
 .media-container {
     height: auto;
     width: 100%;
     padding: 0;
 }
 }
-@media only screen and (max-width: 710px){
+@media only screen and (max-width: 560px){
 .text-container {
     display: none;
 }
 }
-@media only screen and (max-width: 710px) {
+@media only screen and (max-width: 560px) {
   .designs {
     display: none;
   }
@@ -415,18 +415,18 @@ footer a {
     margin: 16px 0 0 16px;
     text-decoration: underline;
 }
-@media only screen and (max-width: 710px) {
+@media only screen and (max-width: 560px) {
 footer {
     justify-content: flex-start;
 }
 }
 
-@media only screen and (max-width: 710px) {
+@media only screen and (max-width: 560px) {
 footer {
     justify-content: flex-start;
 }
 }
-@media only screen and (max-width: 710px) {
+@media only screen and (max-width: 560px) {
 .right {
     display: none;
 }
