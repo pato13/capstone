@@ -23,7 +23,7 @@ h3 {
   overflow: hidden;
 }
 .media-container img,
-.media-container video {
+.media-content video {
   display: block;
   width: 100%;
 }
@@ -243,8 +243,8 @@ header ul li {
   .guests {
     width: 100%;
   }
-  .guests img {
-    height: 50%;
+  .img-info-mobile{
+    width: 100%;
   }
 }
 
@@ -389,7 +389,7 @@ header ul li {
 }
 .media-content{
   margin-right: 4rem;
-  width: 100;
+  width: 100%;
 }
 .design {
   margin-left: -2rem;
@@ -424,6 +424,9 @@ header ul li {
 }
 .text-design h3{
   margin-bottom: 1rem;
+}
+.media-content{
+
 }
 @media only screen and (max-width: 600px) {
   #courses-section {
