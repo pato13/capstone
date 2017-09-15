@@ -117,7 +117,7 @@ header ul li {
   margin-right: 1.5rem;
   text-align: center;
 }
-.start button{
+.start span{
   font-size: 1.5rem;
   padding: 0.5rem 0;
 }
@@ -125,6 +125,7 @@ header ul li {
 @media only screen and (max-width: 600px) {
 .banner {
     padding: 0;
+    margin: 0;
     flex-wrap: wrap;
 }
 }
@@ -194,15 +195,16 @@ header ul li {
   color: blue;
   font-size: 1.2rem;
 }
-.img-campus-info-mobile{
+.img-campus-info-mobile, #img-info-mobile{
   display: none;
 }
 @media only screen and (max-width: 600px) {
-.img-campus-info-mobile {
+.img-campus-info-mobile, #img-info-mobile {
     display: inline-block;
     width: 100%;
     height: auto;
-}
+    padding: 0rem;
+ }
 }
 @media only screen and (max-width: 600px) {
   .information{
@@ -210,12 +212,20 @@ header ul li {
     flex-direction: column;
     flex-wrap: wrap;
     height: auto;
+    margin: 0 auto;
   }
   .mains img {
     width : 100%;
   }
+  .guests #img-info-mobile{
+    margin: 0;
+  }
   .information img{
     width: 100%;
+    margin: 0 auto;
+  }
+  .guest {
+    flex-direction: column;
   }
   .info {
     display: inline;
@@ -237,14 +247,16 @@ header ul li {
 @media only screen and (max-width: 600px){
   .infos {
     min-width: 100%;
-    margin: 0;
-    padding: 16px;
+    padding: 0;
   }
   .guests {
-    width: 100%;
+    width: 100% ! important;
+    flex-direction: column;
+    margin: 0;
   }
-  .img-info-mobile{
+  #img-info-mobile{
     width: 100%;
+    margin: 0;
   }
 }
 
@@ -337,6 +349,9 @@ header ul li {
     display: inline-block;
     width: 100%;
   }
+  .guests{
+    margin: 0;
+  }
 }
 /* Courses */
 #courses-section {
@@ -360,7 +375,7 @@ header ul li {
   padding-bottom: .5rem;
 }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 600px) {
 .course-img-mobile {
     display: none;
 }
@@ -425,9 +440,7 @@ header ul li {
 .text-design h3{
   margin-bottom: 1rem;
 }
-.media-content{
 
-}
 @media only screen and (max-width: 600px) {
   #courses-section {
     padding-bottom: 1.5rem;
